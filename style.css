@@ -1,8 +1,13 @@
-html {
-background-color: black;
+h1 {
+  font-family: "Xanh Mono";
+  text-align: left;
+  background-color: #087024;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  margin-top: 0;
 }
-
-p {
-background-color: lightblue;
-text-align: center; 
+html {
+  background-color: black;
+  
 }
