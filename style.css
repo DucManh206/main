@@ -1,8 +1,11 @@
 h1 {
   font-family: "Xanh Mono";
-  text-align: center;
+  text-align: left;
   padding-top: 20px;
   padding-bottom: 30px;
   padding-left: 50px;
   margin-top: 0;
+}
+p {
+  font-family: "arial";
 }
