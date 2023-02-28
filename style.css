@@ -7,17 +7,12 @@ h1 {
   margin-top: 0;
   background-color: gold;
 }
-p {
-  font-family: "arial";
-  background-color: hotpink;
-  color: goldenrod;
-}
 html {
   background-color: antiquewhite;
   text-align: center;
 }
 .inf {
-  background-color: aliceblue
+  background-color: aliceblue;
 }
 .ricklink {
   background-color: chartreuse;
