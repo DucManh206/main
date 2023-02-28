@@ -1,13 +1,21 @@
 h1 {
   font-family: "Xanh Mono";
   text-align: left;
-  background-color: #087024;
-  padding: 35px;
-  margin-top: 0;
+  padding: 20px;
   position: sticky;
   top: 0px;
   position: -webkit-sticky;
+  padding-left: 48px;
+  border-radius: 20px;
+  color: darkblue;
 }
 html {
-  background-color: antiquewhite;
+  background-image: url("https://codetheweb.blog/assets/img/posts/css-advanced-background-images/mountains.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed
+}
+body {
   text-align: center;
+  color: lightgrey;
+}
