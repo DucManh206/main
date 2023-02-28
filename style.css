@@ -1,12 +1,12 @@
 h1 {
   font-family: "Xanh Mono";
   text-align: left;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  padding-left: 50px;
-  padding-right: 50px;
+  background-color: #087024;
+  padding: 35px;
   margin-top: 0;
-  background-color: gold;
+  position: sticky;
+  top: 0px;
+  position: -webkit-sticky;
 }
 html {
   background-color: antiquewhite;
