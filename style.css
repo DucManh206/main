@@ -8,6 +8,8 @@ h1 {
 }
 p {
   font-family: "arial";
+  background-color: hotpink;
+  color: goldenrod;
 }
 html {
   background-color: antiquewhite;
