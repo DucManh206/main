@@ -9,3 +9,7 @@ h1 {
 p {
   font-family: "arial";
 }
+html {
+  background-color: antiquewhite;
+  text-align: center;
+}
