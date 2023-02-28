@@ -16,7 +16,6 @@ html {
   background-color: antiquewhite;
   text-align: center;
 }
-.rrl {
-  box-shadow: crimson;
-  block-size: 4cm;
+.inf {
+  background-color: darksalmon;
 }
