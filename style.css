@@ -11,20 +11,3 @@ h1 {
 html {
   background-color: antiquewhite;
   text-align: center;
-}
-.inf {
-  background-color: aliceblue;
-}
-.ricklink {
-  background-color: chartreuse;
-  border: none;
-  color: white;
-  padding: 5px 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  }
-}
