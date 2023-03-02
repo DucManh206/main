@@ -38,6 +38,15 @@ body {
   text-align: center;
   padding: 10px 23px;
   text-decoration: none;
-  background-color: white;
+  background-color: lightgrey;
   border-radius: 20px;
+}
+.list:hover {
+ color: white;  
+ background-color: gold;  
+ font-weight: bold;
+}
+.active {
+  background-color: transparent;
+  color: white;
 }
