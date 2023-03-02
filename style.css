@@ -26,18 +26,18 @@ body {
   font-family: monospace;
 }
 .navigation {
-  color: #58257;
   list-style-type: none;
   margin: 0px;
   padding: 0px;
+  color: black;
 }
 .list {
   overflow: hidden;
-  background-color: #e9d8f4;
   float: left;
   display: inline-block;
-  color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 23px;
   text-decoration: none;
+  background-color: white;
+  border-radius: 20px;
 }
