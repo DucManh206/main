@@ -25,12 +25,6 @@ body {
   color: black;
   font-family: monospace;
 }
-.navigation {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-  color: black;
-}
 .list {
   overflow: hidden;
   float: left;
@@ -38,15 +32,14 @@ body {
   text-align: center;
   padding: 10px 23px;
   text-decoration: none;
-  background-color: lightgrey;
+  background-color: lightblue;
   border-radius: 20px;
+  border: 2px solid #d6b7eb;
+  position: fixed;
+  top: 25;
 }
 .list:hover {
  color: white;  
  background-color: gold;  
  font-weight: bold;
-}
-.active {
-  background-color: transparent;
-  color: white;
 }
