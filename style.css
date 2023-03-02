@@ -36,7 +36,8 @@ body {
   border-radius: 20px;
   border: 2px solid #d6b7eb;
   position: fixed;
-  top: 25;
+  top: 65;
+  left: 45;
 }
 .list:hover {
  color: white;  
