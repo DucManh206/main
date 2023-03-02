@@ -17,7 +17,7 @@ h1 {
 }
 
 html {
-  background-image: url("https://i.imgur.com/kXmN1GZ.png");
+  background-image: url("../main/images/background.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
