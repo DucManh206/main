@@ -6,6 +6,7 @@ h1 {
   top: 0px;
   position: -webkit-sticky;
 }
+
 .KMC {
   background-image: url("https://i.imgur.com/sDH7ShM.png");
   background-attachment: fixed;
@@ -14,33 +15,46 @@ h1 {
   display: inline-block;
   font-size: 45px;
 }
+
 html {
   background-image: url("https://i.imgur.com/kXmN1GZ.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 body {
   text-align: center;
   color: black;
   font-family: monospace;
 }
-.list {
-  overflow: hidden;
+
+#navbar {
+  background-color: #333; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+/* Style the navbar links */
+#navbar a {
   float: left;
   display: inline-block;
+  color: white;
   text-align: center;
-  padding: 10px 23px;
+  padding: 20px;
   text-decoration: none;
-  background-color: lightblue;
-  border-radius: 5px;
-  border: 2px solid #d6b7eb;
-  position: fixed;
-  bottom: 0;
-  left: 0;
 }
-.list:hover {
- color: white;  
- background-color: gold;  
- font-weight: bold;
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.chinh {
+  padding: 15px 15px 2500px;
+  font-size: 30px;
+  margin-top: 60px;
+
 }
