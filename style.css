@@ -46,7 +46,5 @@ body {
   color: black;
 }
 .icon-discord {
-  block-size: 10px;
-  border-radius: 30px;
-  box-shadow: 10px;
+  background-size: 10px;
 }
