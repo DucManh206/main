@@ -6,8 +6,12 @@ h1 {
   top: 0px;
   position: -webkit-sticky;
 }
+p {
+  margin-top: 70px;
+  padding: 10px;
+}
 html {
-  background-image: url("../main/images/background.jpg");
+  background-image: url("../../images/background.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
