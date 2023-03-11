@@ -11,7 +11,7 @@ p {
   padding: 10px;
 }
 html {
-  background-image: url("../../images/background.jpg");
+  background-image: url("../../images/BACKGROUND.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,7 +34,7 @@ body {
 
 /* Style the navbar links */
 #navbar a {
-  float: left;
+  float: none;
   display: inline-block;
   color: white;
   text-align: center;
