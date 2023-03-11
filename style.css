@@ -7,7 +7,7 @@ h1 {
   position: -webkit-sticky;
 }
 html {
-  background-image: url("../../images/background.jpg");
+  background-image: url("../main/images/background.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,7 +20,7 @@ body {
 }
 
 #navbar {
-  background-color: #313; /* Black background color */
+  backdrop-filter: blur(15px);
   position: fixed; /* Make it stick/fixed */
   top: 0; /* Stay on top */
   left: 0;
@@ -37,7 +37,6 @@ body {
   padding: 15px;
   text-decoration: none;
 }
-
 #navbar a:hover {
   background-color: #ddd;
   color: black;
