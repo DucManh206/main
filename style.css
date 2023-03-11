@@ -6,16 +6,6 @@ h1 {
   top: 0px;
   position: -webkit-sticky;
 }
-
-.KMC {
-  background-image: url("https://i.imgur.com/sDH7ShM.png");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  border: none;
-  display: inline-block;
-  font-size: 45px;
-}
-
 html {
   background-image: url("../../images/background.jpg");
   background-attachment: fixed;
@@ -25,8 +15,8 @@ html {
 
 body {
   text-align: center;
-  color: black;
-  font-family: monospace;
+  color: whitesmoke;
+  font-family: initial;
 }
 
 #navbar {
