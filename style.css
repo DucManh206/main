@@ -45,6 +45,6 @@ body {
   background-color: #ddd;
   color: black;
 }
-.disicon {
-  background-size: 10px;
+discord-icon {
+  border-radius: 10px;
 }
