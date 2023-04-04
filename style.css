@@ -45,9 +45,7 @@ body {
   background-color: #ddd;
   color: black;
 }
-#discord-icon {
-  border-radius: 30px;
-  box-shadow: 1;
-  backdrop-filter: blur(20px);
-  color: rgba(238, 144, 111, .7);
+.DisIcon {
+  width: 24px !important;
+    height: 24px !important;
 }
