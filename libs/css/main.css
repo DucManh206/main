@@ -1,0 +1,221 @@
+/* OLÁ SEJA BEM VINDO AO CSS, AQUI DEFINIMOS TUDO 
+   ATE SEU CARATER SE DUVIDAR
+   NÃO ESCREVO ISSO EM INGLÊS POIS ESTAVA COM GRENDE PREGUIÇA 
+   ENTÃO TE DOU GRANDE OI BRASILEIRO :3
+
+   1 = HEADER COMPONETES 
+
+   2 = NAVBAR SETS 
+
+   3 = ALL BUTTONS
+
+   4 = NEWS SETS 
+
+   5 = MEDIA KEYS (NÃO ALTERAR NADA, AO MENOS QUE TENHA CONHECIMENTO EM CSS) 
+
+   */
+
+
+/* 1  ------------ HEADER ----------- 1 */
+
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Montserrat:400,700|Share+Tech+Mono);
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+div.header {
+	background: url(../img/PageBackground.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.title-container{
+	border: 4px solid white;
+	padding: 8px 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 120px;
+	position: relative;
+
+}
+
+
+/* 2 ---------- NAVBAR ----------- 2 */
+
+div.nav {
+	border: none;
+	border-radius: 0;
+	background-color: #262626;
+	-webkit-box-shadow: inset 0px -4px 0px 0px #262626;
+	-moz-box-shadow: inset 0px -4px 0px 0px #262626;
+	box-shadow: inset 0px -4px 0px 0px #262626;	
+}
+div.nav > div > div > ul > li > a {
+	padding: 25px;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: white !important;
+}
+div.nav > div > div > button {
+	color: white;
+	padding: 17px;
+}
+div.nav > div > div > button:hover {
+	color: white;
+	background-color: transparent !important;
+}
+div.nav > div > div > button:focus {
+	color: white;
+	background-color: transparent !important;
+}
+div.nav > div > div > a.navbar-brand {
+	padding: 25px;
+	font-weight: 900;
+	color: white;
+}
+
+
+
+
+/* 3 ---------- BUTTONS ----------- 3 */ 
+.dropbtn {
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	margin: 5px;
+}
+
+
+
+
+
+.button-1 {
+    color: white;
+    padding: 10px;
+	text-align: center;
+	border: 0px solid black;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+	border-radius: 2px;
+	text-decoration: none;
+	background: #262626;  /* fallback for old browsers */
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+
+.button-1 a {
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 2px;
+}
+
+
+
+
+.button-1 a:hover {
+    text-decoration: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.button-1 a:focus {
+	text-decoration: none !important;
+	color: white !important;
+	
+}
+
+/*  4 -------- NEWS SETS  ---------- 4 */
+
+.MainSection {
+	width: 100%;
+	padding: 10px;
+	margin: 0 auto;
+	display: table;
+}
+
+
+.MainNews {
+	width: 100%;
+}
+
+.NewsTitle {
+	width: 100%;
+	background-color: #262626;
+	padding: 20px;
+	float: left;
+	color: white;
+}
+
+
+.NewsATT {
+	width: 100%;
+    padding: 20px;
+    background: white;
+}
+
+
+.MainSection-c {
+	width: 100%;
+	padding: 10px;
+	margin: 0 auto;
+	display: table;
+}
+
+
+.MainNews-c {
+	width: 100%;
+}
+
+.NewsTitle-c {
+	width: 100%;
+	background-color: #262626;
+	padding: 10px;
+	float: left;
+	color: white;
+}
+
+
+
+
+.NewsATT-c {
+	width: 100%;
+	background: white;
+	padding: 20px;
+}
+
+
+/* ---------- MEDIA KEYS ------- */
+
+@media only screen and (max-width: 500px){
+    .title-container {
+		border: 4px solid white;
+		font-size: 50px;
+	}
+}
+
+
+
+@media only screen and (max-width: 500px){
+    .imgk {
+        width: 100%;
+    }
+}
